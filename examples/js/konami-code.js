@@ -80,6 +80,6 @@ function keyListener($event)
 function unlock()
 {
 	// random background color...
-	var hue = parseInt( Math.random() * 255 );
+	var hue = parseInt( Math.random() * 360 );
 	$('body').css( { background: 'hsl(' + hue + ', 90%, 70%)'} );
 }
